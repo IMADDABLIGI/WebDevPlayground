@@ -14,7 +14,7 @@
 .ctr-head {
     display: flex;
     height: 50px;
-    border: darkred solid 5px;
+    border: darkgray solid 2px;
     align-items: center;
     justify-content: space-between;
     padding: 8px 100px;
@@ -28,12 +28,10 @@
 .head-bar2 {
     display: flex;
     height: 50px;
-    border: darkred solid 4px;
+    border: darkgray solid 2px;
     width: 700px;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
-    padding-right: 15px;
 }
 
 .head-bar2 a {
@@ -44,83 +42,85 @@
 /* -------------------------------------------------------- */
 /* -------------------------------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.flex-ctrI {
-    height: 400px;
+.bar {
     display: flex;
+    height: 300px;
+    border: darkred solid 2px;
+    padding: 20px 100px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    border: darkred solid 5px;
 }
 
-.flex-ctrI .space1 {
-    width: 200px;
-}
-
-.flex-ctrI-1 {
+.bar .bar1 {
+    display: flex;
+    border: darkred solid 2px;
     height: 200px;
-    width: 600px;
-    border: darkred solid 5px;
-    display: flex;
+    width: 700px;
     flex-direction: column;
-
 }
 
-.flex-ctrI-1 .item1 
-{
-    width: 200px;
-    height: 85px;
-    color: #F9FAF8;
-    padding-top: 0%;
-    margin-top: -3%;
-}
-
-.flex-ctrI-1 .item2
-{
-    width: 300px;
-    color: #E5E7EB;
-}
-
-.flex-ctrI-1 .item3
-{
+.bar .bar2 {
     display: flex;
-    align-items: center;
-    width: 100px;
-    height: 40px;
-    justify-content: center;
-    /* vertical-align: sub; */
-    color: #E5E7EB;
-    background-color: rgb(7, 78, 211);
+    border: darkred solid 2px;
+    height: 200px;
+    width: 700px;
 }
 
-.font-white {
+.bar .item1 h1 {
+    margin: 0px;
+    width: 250px;
     color: white;
 }
 
+.bar .item2 {
+    margin: 0px;
+    width: 300px;
+    font-size: small;
+    color: rgb(192, 192, 192);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bar .item3 {
+    display: flex;
+    width: 90px;
+    height: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 142, 217);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
 
 .flex-ctrII {
     align-items: center;
