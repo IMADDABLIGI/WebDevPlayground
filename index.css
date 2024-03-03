@@ -11,22 +11,13 @@
 /* --------------------------HEAD-------------------------- */
 /* -------------------------------------------------------- */
 
-.ctr-head .space1 {
-    width: 50px;
-}
-.ctr-head .space2 {
-    width: 800px;
-}
-.ctr-head .space3 {
-    width: 200px;
-}
-
 .ctr-head {
     display: flex;
     height: 50px;
     border: darkred solid 5px;
     align-items: center;
     justify-content: space-between;
+    padding: 8px 100px;
 }
 
 .head-bar {
@@ -40,12 +31,13 @@
     border: darkred solid 4px;
     width: 700px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-right: 15px;
 }
 
 .head-bar2 a {
     color: grey;
-    margin: 15px;
 }
 
 /* -------------------------------------------------------- */
