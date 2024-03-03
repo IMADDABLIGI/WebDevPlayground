@@ -1,10 +1,81 @@
-* {
+/* * {
     outline: 2px solid red;
-  }
+  } */
 
 .page-color {
     background: #1F2937;
+    margin: 0px;
 }
+
+/* -------------------------------------------------------- */
+/* --------------------------HEAD-------------------------- */
+/* -------------------------------------------------------- */
+
+.ctr-head .space1 {
+    width: 50px;
+}
+.ctr-head .space2 {
+    width: 800px;
+}
+.ctr-head .space3 {
+    width: 200px;
+}
+
+.ctr-head {
+    display: flex;
+    height: 50px;
+    border: darkred solid 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-bar {
+    display: flex;
+    height: 55px;
+}
+
+.head-bar2 {
+    display: flex;
+    height: 50px;
+    border: darkred solid 4px;
+    width: 700px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-bar2 a {
+    color: grey;
+    margin: 15px;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .flex-ctrI {
     height: 400px;
@@ -15,21 +86,25 @@
 }
 
 .flex-ctrI .space1 {
-    width: 100px;
-    flex: 1;
+    width: 200px;
 }
 
 .flex-ctrI-1 {
     height: 200px;
     width: 600px;
     border: darkred solid 5px;
-    flex:1;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .flex-ctrI-1 .item1 
 {
     width: 200px;
+    height: 85px;
     color: #F9FAF8;
+    padding-top: 0%;
+    margin-top: -3%;
 }
 
 .flex-ctrI-1 .item2
@@ -40,8 +115,12 @@
 
 .flex-ctrI-1 .item3
 {
+    display: flex;
+    align-items: center;
     width: 100px;
-    text-align: center;
+    height: 40px;
+    justify-content: center;
+    /* vertical-align: sub; */
     color: #E5E7EB;
     background-color: rgb(7, 78, 211);
 }
@@ -49,9 +128,6 @@
 .font-white {
     color: white;
 }
-
-
-
 
 
 .flex-ctrII {
