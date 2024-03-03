@@ -22,7 +22,7 @@
 
 .head-bar {
     display: flex;
-    height: 55px;
+    height: 50px;
 }
 
 .head-bar2 {
@@ -39,7 +39,7 @@
 }
 
 /* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
+/* ----------------------BAR-I----------------------------- */
 /* -------------------------------------------------------- */
 
 .bar {
@@ -55,24 +55,17 @@
     display: flex;
     border: darkred solid 2px;
     height: 200px;
-    width: 700px;
+    width: 100%;
     flex-direction: column;
 }
 
-.bar .bar2 {
-    display: flex;
-    border: darkred solid 2px;
-    height: 200px;
-    width: 700px;
-}
-
-.bar .item1 h1 {
+.bar .bar1 .item1 h1 {
     margin: 0px;
     width: 250px;
     color: white;
 }
 
-.bar .item2 {
+.bar .bar1 .item2 {
     margin: 0px;
     width: 300px;
     font-size: small;
@@ -81,49 +74,89 @@
     padding-bottom: 20px;
 }
 
-.bar .item3 {
+.bar .bar1 .item3 {
     display: flex;
     width: 90px;
     height: 30px;
     color: white;
     align-items: center;
     justify-content: center;
-    background-color: rgb(36, 142, 217);
+    background-color: #3882F6;
 }
 
+.bar .bar2 {
+    display: flex;
+    border: darkred solid 2px;
+    height: 200px;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bar2  img{
+    width: 100%;
+}
 
 /* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
+/* -----------------------BAR-II--------------------------- */
 /* -------------------------------------------------------- */
 
-.flex-ctrII {
+.bar_II {
+    display: flex;
     align-items: center;
     height: 300px;
     background: white;
+    border: darkred solid 2px;
+    flex-direction: column;
+    padding: 20px 100px 40px;
 }
+
+.bar_II .bar1 {
+    display: flex;
+    height: 60px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar_II .bar2 {
+    display: flex;
+    height: 150px;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.bar_II .bar2 div
+{
+    margin : 2px;
+    display: flex;
+    height: 90px;
+    width: 200px;
+    border: #3882F6 solid 4px;
+}
+
+.bar_II .bar3 {
+    display: flex;
+    height: 30px;
+    width: 50%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+.bar_II .bar3 div
+{
+    color: rgb(145, 145, 145);
+    text-align: center;
+    margin-top: -15px;
+    font-size: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+/* -------------------------------------------------------- */
+/* -----------------------BAR-III-------------------------- */
+/* -------------------------------------------------------- */
+
