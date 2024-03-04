@@ -14,7 +14,7 @@
 .ctr-head {
     display: flex;
     height: 50px;
-    border: darkgray solid 2px;
+    /* border: darkgray solid 2px; */
     align-items: center;
     justify-content: space-between;
     padding: 8px 100px;
@@ -28,9 +28,9 @@
 .head-bar2 {
     display: flex;
     height: 50px;
-    border: darkgray solid 2px;
-    width: 700px;
+    width: 500px;
     align-items: center;
+    /* border: darkgray solid 2px; */
     justify-content: space-evenly;
 }
 
@@ -45,15 +45,14 @@
 .bar {
     display: flex;
     height: 300px;
-    border: darkred solid 2px;
+    /* border: darkred solid 2px; */
     padding: 0px 100px;
-    justify-content: space-between;
     align-items: center;
 }
 
 .bar .bar1 {
     display: flex;
-    border: darkred solid 2px;
+    /* border: darkred solid 2px; */
     height: 200px;
     width: 100%;
     flex-direction: column;
@@ -61,7 +60,7 @@
 
 .bar .bar1 .item1 h1 {
     margin: 0px;
-    width: 250px;
+    width: 100%;
     color: white;
 }
 
@@ -86,7 +85,7 @@
 
 .bar .bar2 {
     display: flex;
-    border: darkred solid 2px;
+    /* border: darkred solid 2px; */
     height: 200px;
     width: 100%;
 }
@@ -104,16 +103,15 @@
     align-items: center;
     height: 300px;
     background: white;
-    border: darkred solid 2px;
+    /* border: darkred solid 2px; */
     flex-direction: column;
-    padding: 0px 100px;
+    padding: 10px 100px;
 }
 
 .bar_II .bar1 {
     display: flex;
-    margin: 10px;
     height: 60px;
-    width: 500px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     font-size: 25px;
@@ -165,7 +163,7 @@
     height: 300px;
     display: flex;
     background-color: #E5E7EB;
-    border: darkred solid 2px;
+    /* border: darkred solid 2px; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -174,15 +172,104 @@
 
 .bar_III .item1{
     height: 150px;
-    width: 600px;
-    font-size: 29px;
+    width: 100%;
+    font-size: 27px;
     color: rgb(80, 79, 79);
 }
 
 .bar_III .item2 {
     margin-top: -18px; 
-    width: 600px;
+    width: 100%;
     text-align: right;
     font-size: 20px;
     color: rgb(80, 79, 79);
+}
+
+/* -------------------------------------------------------- */
+/* -----------------------BAR-VI--------------------------- */
+/* -------------------------------------------------------- */
+
+
+.bar_IV {
+    display: flex;
+    height: 250px;
+    background-color: white;
+    padding: 0px 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bar_IV .blue-bar {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: #3882F6;
+}
+
+.bar_IV .blue-bar .box-1 {
+    display: flex;
+    height : 95%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bar_IV .blue-bar .box-1 h3 {
+    color: white;
+    /* border: darkblue solid 2px; */
+    width: 100%;
+    padding-left: 17%;
+}
+
+.bar_IV .blue-bar .box-1 p {
+    color: rgb(213, 210, 210);
+    /* border: darkblue solid 2px; */
+    width: 100%;
+    padding-left: 17%;
+    margin-top: -17px;
+    font-size: 14px;
+}
+
+
+.bar_IV .blue-bar .box-2 {
+    display: flex;
+    height : 95%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar_IV .blue-bar .box-2 .sign {
+    display: flex;
+    height: 30%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    border: white solid 2px;
+}
+
+.bar_IV .blue-bar .box-2 .sign a {
+    color: white;
+}
+
+/* -------------------------------------------------------- */
+/* -----------------------BAR-V---------------------------- */
+/* -------------------------------------------------------- */
+
+.bar_V {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar_V .copyright {
+    display: flex;
+    color: white;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
