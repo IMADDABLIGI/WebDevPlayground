@@ -14,7 +14,6 @@
 .ctr-head {
     display: flex;
     height: 50px;
-    /* border: darkgray solid 2px; */
     align-items: center;
     justify-content: space-between;
     padding: 8px 100px;
@@ -27,15 +26,14 @@
 
 .head-bar2 {
     display: flex;
-    height: 50px;
-    width: 500px;
-    align-items: center;
-    /* border: darkgray solid 2px; */
-    justify-content: space-evenly;
+    gap: 100px;
+    justify-content: flex-end;
 }
 
 .head-bar2 a {
     color: grey;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* -------------------------------------------------------- */
@@ -78,19 +76,16 @@
     width: 90px;
     height: 30px;
     color: white;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
 }
 
-.bar .bar2 {
+.bar .bar2 img {
+    border: white solid 3px;
     display: flex;
-    /* border: darkred solid 2px; */
     height: 200px;
-    width: 100%;
-}
-
-.bar2  img{
     width: auto;
 }
 
@@ -109,7 +104,7 @@
 
 .bar_II .bar1 {
     display: flex;
-    height: 60px;
+    margin: 15px;
     align-items: center;
     justify-content: center;
     font-size: 25px;
@@ -119,27 +114,27 @@
 .bar_II .bar2 {
     display: flex;
     height: 150px;
-    width: 50%;
-    justify-content: space-between;
+    width: 600px;
+    gap: 28px;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bar_II .bar2 div
 {
-    margin : 2px;
     display: flex;
     height: 90px;
-    width: 200px;
-    border: #3882F6 solid 4px;
+    width: 100px;
+    border: #3882F6 solid 3px;
 }
 
 .bar_II .bar3 {
     display: flex;
     height: 30px;
-    width: 50%;
-    justify-content: space-between;
-    gap: 15px;
+    width: 600px;
+    justify-content: center;
+    gap: 28px;
 }
 
 
@@ -150,7 +145,8 @@
     margin-top: -15px;
     font-size: 10px;
     height: 20px;
-    width: 200px;
+    width: 100px;
+    border: white solid 3px;
 }
 
 /* -------------------------------------------------------- */
@@ -161,27 +157,20 @@
     height: 310px;
     display: flex;
     background-color: #E5E7EB;
-    /* border: darkred solid 2px; */
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0px 100px;
 }
-
-.bar_III .item1{
-    height: 150px;
-    width: 800px;
-    font-size: 27px;
-    color: rgb(80, 79, 79);
+.bar_III .item1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .bar_III .item2 {
-    margin-top: -18px; 
-    width: 100%;
-    text-align: right;
-    font-size: 20px;
-    color: rgb(80, 79, 79);
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 /* -------------------------------------------------------- */
 /* -----------------------BAR-VI--------------------------- */
