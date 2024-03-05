@@ -82,6 +82,7 @@
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
+    border-radius: 15px;
 }
 
 .bar .bar2 {
@@ -93,6 +94,7 @@
 
 .bar2  img{
     width: auto;
+    border-radius: 10px;
 }
 
 /* -------------------------------------------------------- */
@@ -106,13 +108,13 @@
     background: white;
     /* border: darkred solid 2px; */
     flex-direction: column;
-    padding: 10px 100px;
+    padding: 25px 100px;
+    /* flex-wrap : wrap; */
+
 }
 
 .bar_II .bar1 {
     display: flex;
-    height: 60px;
-    width: 800px;
     align-items: center;
     justify-content: center;
     font-size: 25px;
@@ -120,64 +122,83 @@
 }
 
 .bar_II .bar2 {
+    margin-top: 20px;
     display: flex;
-    height: 150px;
-    width: 50%;
-    justify-content: space-between;
+    height: 250px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bar_II .bar2 .boxes {
+    display: flex;
+    height: 50%;
     align-items: center;
-    gap: 15px;
+    justify-content: space-evenly;
+    padding: 0 100px;
 }
 
-.bar_II .bar2 div
-{
-    margin : 2px;
+.bar_II .bar2 .boxes div {
     display: flex;
-    height: 90px;
-    width: 200px;
-    border: #3882F6 solid 4px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    border: #3882F6 solid 2px;
+    min-width: 80px;
 }
 
-.bar_II .bar3 {
+.bar_II .bar2 .random-text {
     display: flex;
-    height: 30px;
-    width: 50%;
-    justify-content: space-between;
-    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -30px;
+    padding: 0 100px;
 }
 
-
-.bar_II .bar3 div
-{
-    color: rgb(145, 145, 145);
+.bar_II .bar2 .random-text p {
+    width: 80px;
+    font-size: 15px;
+    min-width: 80px;
     text-align: center;
-    margin-top: -15px;
-    font-size: 10px;
-    height: 20px;
-    width: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------------------------------- */
 /* ----------------------Practicing ----------------------- */
 /* -------------------------------------------------------- */
 
-.btn {
+.practice {
     display: flex;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
+    height: 250px;
     background-color: white;
-    border: gray solid 5px;
+    border: darkred solid 2px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 100px;
 }
 
-.btn a {
+.practice div {
     display: flex;
-    padding: 15px 30px;
-    text-align: center;
-    background-color: #3882F6;
-    color: white;
-    border: solid darkblue 3px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    border: darkred solid 2px;
+    border-radius: 15px;
+}
+
+.practice #itm1 {
+    align-self: flex-end;
+    flex-grow: 0;
+    height: 200px;
 }
