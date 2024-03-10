@@ -99,13 +99,14 @@
 /* -------------------------Buttuon------------------------ */
 /* -------------------------------------------------------- */
 
-.button-ctr {
+.button {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    /* border: white solid 2px; */
 }
 
-.button-ctr a {
+.button a {
     display: flex;
     text-decoration: none;
     padding: 10px 15px;
@@ -164,7 +165,7 @@
         width: 0px;
     }
 
-    .button-ctr a {
+    .button a {
         padding: 8px 10px;
         font-size: 13px;
     }
