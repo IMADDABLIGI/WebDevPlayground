@@ -1,38 +1,51 @@
 console.log("Hello, World");
-function favoriteAnimal(animal, checker) {
-    if (checker == "animal")
-      return animal + " is my favorite animal!";
-    return animal + " is my favorite Car!";
+// function favoriteAnimal(animal, checker) {
+//     if (checker == "animal")
+//       return animal + " is my favorite animal!";
+//     return animal + " is my favorite Car!";
+  // }
 
-  }
 
-
-  // -- ARRAYS --
-  let mercedes = ["Mercedes", "A180", "Diesel"];
-  // let mercedes2 = [...mercedes, 555];
-  // console.log(mercedes)
+  // ------------------------ ARRAYS ------------------------
   
-  mercedes2 = mercedes.map( (name) => {
-    return name += 50
-  })
+//   const cars = [
+//     {
+//       name: "Mercedes",
+//       lastName: "CLA-45",
+//       model: 2018
+//     },
+//     {
+//       name: "Porsche",
+//       lastName: "992 Gt3",
+//       model: 2022
+//     },
+//     {
+//       name: "Audi",
+//       lastName: "RS5",
+//       model: 2010
+//     },
+//   ]
+  
+//   // -- Filter --
+  
+//   newercars = cars.filter( (car) => {
+//     return car.model > 2020;
+//   } )
+  
+//   // -- Map --
+
+//   carsName = cars.map( car => {
+//     return car.name;
+//   })
+
+// console.log(newercars);
+// console.log(carsName);
   
   
-  mercedes3 = mercedes.filter( (arg) => {
-    return arg !== "A180" && arg !== "Diesel";
-  } )
-
-
-  console.log(mercedes2)
-  console.log(mercedes3)
 
 
 
-
-
-
-
-
-
+// ------------------------ Objects ------------------------
 
 // let cars = {
 //   name: 'Porsche',
@@ -58,7 +71,7 @@ function favoriteAnimal(animal, checker) {
 
 
 
-
+  // ------------------------ Exercice {FizzBuzz} ------------------------
 
 
 // let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -83,8 +96,7 @@ function favoriteAnimal(animal, checker) {
 //   return (userSelection);
 // }
 
-// function GetBotWeapon()
-// {
+// const GetBotWeapon = () => {
 //   let choices = [1, 2, 3];
 //   let choice = choices[Math.floor(Math.random() * choices.length)];
 
@@ -121,9 +133,32 @@ function favoriteAnimal(animal, checker) {
 //   GamePlay(botWeapon, playerWeapon);
 // }
 
-// {/* <p  onClick = { () => {
-//   console.log("Naadi"); }
-//   }>
-// </p> */}
-
 // Execution();
+
+
+
+// ------------------------ Asynchromous ------------------------
+
+
+// setTimeout (() => {
+//   console.log("Waiting 1 second \n");
+// } ,1000);
+
+setTimeout (() => {
+  console.log("3");
+    setTimeout (() => {
+      console.log("2");
+      setTimeout (() => {
+        console.log("1");
+      } ,1000);
+    } ,1000);
+} ,1000);
+
+
+// const print = () => {
+//   console.log('test');
+//   setTimeout()
+// }
+
+
+test()
