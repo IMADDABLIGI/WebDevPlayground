@@ -1,0 +1,13 @@
+.profilesPage {
+    display: flex;
+    flex-direction: column;
+    border: darkred solid 2px;
+    background-color: wheat;
+}
+
+.profilesPage .links{
+    color: white;
+    background-color: darkred;
+    border-radius: 5px;
+    text-decoration: none;
+}

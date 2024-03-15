@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  margin: 0;
+  color: white;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  border: cyan solid 2px;
+  font-family: 10x;
+
+}
+
+.NavBar {
+  background-color: darkorange;
+  border: gray solid 2px;
+}
