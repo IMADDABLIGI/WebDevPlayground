@@ -6,7 +6,7 @@ const params = useParams();
 console.log(params);
     return (
         <>
-            <h1> Profile Page {params.profileId} </h1>
+            <h1> Profile Page {params.ID} </h1>
         </>
     )
 }
