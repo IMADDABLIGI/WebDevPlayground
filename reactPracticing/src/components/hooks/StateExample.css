@@ -1,0 +1,11 @@
+.statePage {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button .onClick{
+    background-color: darkred;
+    padding: 10px;
+}
