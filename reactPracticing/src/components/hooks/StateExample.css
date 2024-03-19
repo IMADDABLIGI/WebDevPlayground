@@ -5,7 +5,15 @@
     gap: 10px;
 }
 
-button .onClick{
-    background-color: darkred;
-    padding: 10px;
+.button {
+    display: flex;
+    gap: 5px;
+}
+
+.increment{
+    border: #0d6efd solid 3px;
+}
+
+.decrement{
+    border: cyan solid 3px;
 }
