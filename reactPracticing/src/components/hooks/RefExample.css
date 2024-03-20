@@ -1,0 +1,10 @@
+.refPage {
+    display: flex;
+    padding: 100px;
+    gap: 10px;
+}
+
+.refPage .input {
+    border: darkblue solid 5px;
+    border-radius: 10px;
+}
