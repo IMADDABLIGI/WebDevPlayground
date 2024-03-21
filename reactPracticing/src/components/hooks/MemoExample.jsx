@@ -1,5 +1,5 @@
 // import './MemoExample.css'
-import { useState, useMemo} from 'react';
+import { useState, useMemo, useEffect} from 'react';
 
 const congratsMessage = () => {
     console.log('message');
@@ -11,14 +11,13 @@ function MemoExample() {
     const [count, setCount] = useState(0); // useState does render the component to render a new change
     let [isMax, setIsMax] = useState(false);
     
-    
-    let msg = useMemo(() => congratsMessage(), [isMax]); // We use useMemo if we want a function don't be running in every rendering and to run only in the first time or if a variable changed.
+    let msg = useMemo(() => congratsMessage(), [isMax]); // congratsMessage will work just if isMax gets updated
     // let msg = congratsMessage(); // Here this function will be running every time a render is happend.
     
     const handleClick = () => {
         (count + 1) <= 10 && setCount(count + 1);
         (count === 5) && setIsMax(true);
-        console.log('TEST');
+        console.log('count :', {count});
     }
 
 
@@ -35,3 +34,7 @@ function MemoExample() {
 }
 
 export default MemoExample;
+
+//  We use useMemo if we want a function to not run in every rendering and to run only
+//in the first time or if a variable changed.
+//  congratsMessage function will not work until the isMax variable gets updated. {useMemo}
