@@ -1,0 +1,50 @@
+
+
+.NavBar{
+    display: flex;
+    height: 60px;
+    border: solid rgb(207, 102, 41) 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+/* ---------------------------------------------- */
+
+.NavBar .links {
+    display: flex;
+    gap: 30px;
+    margin-right: 60px;
+}
+
+.NavBar .links .link{
+    color: white;
+    text-decoration: none;
+    background-color: darkorange;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 16px;
+}
+
+
+/* ---------------------------------------------- */
+
+
+@media (max-width: 600px){
+    
+    .NavBar .links {
+        display: none;
+    }
+}
+
+
+@media (min-width: 600px){
+    .NavBar button {
+        display: none;
+    }
+
+}
