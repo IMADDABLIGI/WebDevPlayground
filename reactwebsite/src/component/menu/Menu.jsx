@@ -15,7 +15,7 @@ function Menu() {
 
         <div className='menulist'>
             {MenuList.map((Item, key) => {
-                return <MenuItem Item={Item} key={key}/>
+                return <MenuItem Item={Item} key={key}/> 
             })}
         </div>
 
