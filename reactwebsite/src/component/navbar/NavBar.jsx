@@ -1,5 +1,5 @@
 import {React, useState, useEffect} from 'react'
-import Logo from '../../assets/pepperoni.jpg'
+import Logo from '../../assets/pizzaLogo.png'
 import '../../styles/NavBar.css'
 import { Link } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';

@@ -15,9 +15,9 @@ function Contact() {
           <h1> Contact Us </h1>
           <form id='contactForm'>
             <label htmlFor='name' > Full Name </label>
-            <input name='name' placeholder='Enter full name...' />
+            <input name='name' placeholder='Enter full name...' required/>
             <label htmlFor='email' > Email </label>
-            <input name='email' placeholder='Enter email...' />
+            <input name='email' placeholder='Enter email...' required/>
             <label htmlFor='message' > Message </label>
             <textarea 
               rows='6'

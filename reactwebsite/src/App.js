@@ -4,6 +4,7 @@ import Home from './component/home/Home';
 import ErrorPage from './component/home/ErrorPage';
 import Menu from './component/menu/Menu'
 import Contact from './component/contact/Contact';
+import About from './component/about/About';
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
     {
       path: '/menu',
       element: <Menu />
+    },
+    {
+      path: '/about',
+      element: <About />
     },
     {
       path: '/contact',
