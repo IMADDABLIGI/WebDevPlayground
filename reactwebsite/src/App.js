@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './component/home/Home';
 import ErrorPage from './component/home/ErrorPage';
 import Menu from './component/menu/Menu'
+import Contact from './component/contact/Contact';
 
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
     {
       path: '/menu',
       element: <Menu />
+    },
+    {
+      path: '/contact',
+      element: <Contact />
     }
   ])
 
