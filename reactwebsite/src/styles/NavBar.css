@@ -6,11 +6,12 @@
     /* border: solid rgb(207, 102, 41) 2px; */
     align-items: center;
     justify-content: space-between;
+    background-color: #121619;
 }
 
 .NavBar img {
-    height: 50px;
-    margin-left: 20px;
+    height: 40px;
+    margin-left: 50px;
 }
 
 /* ---------------------------------------------- */
