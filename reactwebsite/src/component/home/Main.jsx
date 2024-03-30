@@ -9,7 +9,7 @@ function Main() {
     <div className='main' style={{backgroundImage:`url(${Image})`}}>
         <h1> Pizzeria </h1>
         <p> PIZZA TO FIT ANYTASTE </p>
-        <Link to='/home' className='orderButton'> Order Now </Link>
+        <Link to='/menu' className='orderButton'> Order Now </Link>
     </div>
   )
 }
