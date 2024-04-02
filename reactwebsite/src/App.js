@@ -5,6 +5,7 @@ import ErrorPage from './component/home/ErrorPage';
 import Menu from './component/menu/Menu'
 import Contact from './component/contact/Contact';
 import About from './component/about/About';
+import Test from './component/test/test';
 
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
     {
       path: '/contact',
       element: <Contact />
+    },
+    {
+      path: '/test',
+      element: <Test />
     }
   ])
 

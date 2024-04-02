@@ -1,6 +1,6 @@
 .main {
     display: flex;
-    height: 850px;
+    height: 75svh;
     flex-direction: column;
     padding: 100px;
     justify-content: center;

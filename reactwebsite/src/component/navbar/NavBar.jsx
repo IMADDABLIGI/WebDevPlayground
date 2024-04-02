@@ -14,7 +14,7 @@ function NavBar() {
     
     const handeIconClick = () => {
         setIsClick(!isClick);
-        console.log(isClick);
+        // console.log(isClick);
     }
 
     const linksCtr = (linkName) => {
