@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MenuItem({Item}) {
+const MenuItem = ({Item}) => {
   return (
     <div className='item'>
         <div style={{backgroundImage: `url(${Item.image})`}} />

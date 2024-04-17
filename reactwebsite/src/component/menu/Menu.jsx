@@ -18,8 +18,6 @@ function Menu() {
                 return <MenuItem Item={Item} key={key}/> 
             })}
         </div>
-
-
       </div>
       <Footer />
     </>

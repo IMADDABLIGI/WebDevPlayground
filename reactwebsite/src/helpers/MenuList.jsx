@@ -24,7 +24,7 @@ export const MenuList = [
   {
     name: "Vegan Pizza",
     image: Vegan,
-    price: 17.99,
+    price: 13.37,
   },
   {
     name: "Pineapple Pizza",
@@ -34,6 +34,6 @@ export const MenuList = [
   {
     name: "Expensive Pizza",
     image: Expensive,
-    price: 1997.99,
+    price: 1937.99,
   },
 ];

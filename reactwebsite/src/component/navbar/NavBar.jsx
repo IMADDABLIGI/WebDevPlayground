@@ -5,18 +5,16 @@ import { Link } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 
-const links = ['Home', 'Menu', 'About', 'Contact'];
-
-
-function NavBar() {
-
+const NavBar = () => {
+    
+    const links = ['Home', 'Menu', 'About', 'Contact'];
     const [isClick, setIsClick] = useState(false);
     
     const handeIconClick = () => {
         setIsClick(!isClick);
         // console.log(isClick);
     }
-
+    
     const linksCtr = (linkName) => {
         return (
             <div className={linkName}>
@@ -33,7 +31,7 @@ function NavBar() {
 
     return (
         <div className='NavBar'>
-            { !isClick && <img src={Logo} /> }
+            { !isClick &&  <Link to={'/'}> <img src={Logo} /> </Link> }
             { isClick && linksCtr('hiddenLinks')}
             <ReorderIcon onClick={handeIconClick} className='ReoderIcon'/>
             {linksCtr('links')}
