@@ -8,6 +8,7 @@ import Profile from './components/error-profiles/Profile';
 import StateExample from './components/hooks/StateExample';
 import RefExample from './components/hooks/RefExample';
 import MemoExample from './components/hooks/MemoExample';
+import Drinks from './components/drinks/Drinks';
 
 
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/memo",
     element: <MemoExample />
+  },
+  {
+    path: "/drinks",
+    element: <Drinks />
   }
 ]);
 

@@ -1,5 +1,5 @@
 // import './MemoExample.css'
-import { useState, useMemo, useEffect} from 'react';
+import { useState, useMemo} from 'react';
 
 const congratsMessage = () => {
     console.log('message');
