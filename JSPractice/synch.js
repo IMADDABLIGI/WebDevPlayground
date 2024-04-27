@@ -37,28 +37,13 @@
         
 const axios = require("axios")
 
-const fetchData = async () => {
+// async function fetchData(){
+const fetchData = async () =>{
     const data = await axios.get("https://cat-fact.herokuapp.com/facts") // This line return a promise
     console.log(data)
 }
 
 fetchData()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ------------------------ Sleeper Timer ------------------------
 
