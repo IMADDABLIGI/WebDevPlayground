@@ -5,7 +5,7 @@ import ErrorPage from './component/home/ErrorPage';
 import Menu from './component/menu/Menu'
 import Contact from './component/contact/Contact';
 import About from './component/about/About';
-import Test from './component/test/test';
+import Register from './component/register/Register';
 
 
 function App() {
@@ -33,9 +33,9 @@ function App() {
       element: <Contact />
     },
     {
-      path: '/test',
-      element: <Test />
-    }
+      path: '/register',
+      element: <Register />
+    },
   ])
 
   return (
