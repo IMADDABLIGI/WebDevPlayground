@@ -39,6 +39,7 @@ function Register() {
                 } else {
                     // Something happened in setting up the request that triggered an error
                     console.log("Error:", error.message);
+                    alert(error.message)
                 }
             }
     }
