@@ -1,0 +1,50 @@
+.positon-page {
+    height: 100vh;
+    width: 100%;
+    /* border: white solid 1px; */
+    overflow-y: scroll;
+}
+
+#relative {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed {
+    width: 50%;
+    height: 100px;
+    position: fixed;
+    background-color: darkred;
+    top: 0;
+    right: 0;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    position: relative;
+    top: 400px;
+    left: 500px;
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 150px;
+    height: 150px;
+    background-color: wheat;
+    position: absolute;
+    top: 75px;
+    right: 20px
+}
+.box3{
+    background-color: burlywood;
+    width: 100%;
+    height: 50%;
+}

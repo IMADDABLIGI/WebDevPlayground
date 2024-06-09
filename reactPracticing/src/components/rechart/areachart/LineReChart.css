@@ -1,0 +1,12 @@
+.Rechart-line {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: solid rgb(104, 104, 104) 0.5px;
+}
+
+.linegraph {
+    height: 500px;
+    width: 500px;
+    border: solid rgb(104, 104, 104) 0.5px;
+}
